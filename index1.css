@@ -1,0 +1,241 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+
+}
+
+#video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+header>h1
+{
+    font-size: 50px;
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(253, 177, 91));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header{   
+    position: fixed;
+    width: 100%;
+    background-color: rgb(240, 237, 237);
+    text-align: center;
+    color: rgb(41, 41, 41);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    height: 70px;
+    z-index: 1;
+}
+
+nav
+{
+    display: flex;
+    padding-top: 0%;
+    padding-bottom: 10px;
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    font-size: larger;
+}
+a:hover{
+    background-color: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+a
+{
+    background-color: rgb(72, 70, 70);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+div
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+p
+{
+    font-size: 27px;
+    color: aliceblue;
+    margin: 1%;
+}
+
+#article1
+{
+    background-color: black;
+    width: 40%;
+    height: 50%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 7.5%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+
+}
+
+#article2
+{
+    background-color: black; 
+    width: 40%;
+    height: 50%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+#cath
+{
+    margin: 1%;
+    margin-left: 15%;
+    transition: transform .1s;
+}
+
+#cath:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+
+#imgb
+{
+    float: left;
+    margin-left: 4%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    transition: transform .1s;
+    width: 90%;
+}
+
+#imgb:hover{
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+    }
+
+
+#barre
+{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#article3
+{
+    background-color: black;
+    width: 40%;
+    height: 50%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 1%;
+    margin-left: 7.5%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+#article4
+{
+    background-color: black; 
+    width: 40%;
+    height: 50%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-top: 40px;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+#article5
+{
+    background-color: black; 
+    width: 80%;
+    height: 50%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+    margin-top: 40px;
+    margin-left: 10%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#article6
+{
+    background-color: black; 
+    width: 80%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 20%;
+    margin-bottom: 1%;
+    margin-top: 40px;
+    margin-left: 10%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#article7
+{
+    background-color: black; 
+    width: 80%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 20%;
+    margin-bottom: 1%;
+    margin-top: 40px;
+    margin-left: 10%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#imgd
+{
+    margin: 10%;
+    transition: transform .1s;
+}
+
+#imgd:hover{
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+    }
+
+#imge
+{
+    margin: 10%;
+    transition: transform .1s;
+}
+
+#imge:hover{
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+    }
+
+
